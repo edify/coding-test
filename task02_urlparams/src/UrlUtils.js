@@ -1,6 +1,6 @@
 class UrlUtils {
   getParams(url) {
-    // TODO: IMPLEMENT
+    // TODO IMPLEMENT
   }
 }
 

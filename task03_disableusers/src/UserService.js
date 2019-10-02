@@ -1,6 +1,6 @@
 class UserService {
   disableUsers(usersPayload) {
-    //TODO: IMPLEMENT
+    // TODO IMPLEMENT
   }
 }
 
