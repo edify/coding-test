@@ -1,5 +1,5 @@
 {
-  "name": "edify-task01-leapyear",
+  "name": "edify-nodejs-customcalendar",
   "version": "1.0.0",
   "scripts": {
     "test": "JEST_JUNIT_OUTPUT=test-results.xml jest --testResultsProcessor='jest-junit' --testEnvironment='node'"
