@@ -9,4 +9,4 @@ addons:
   artifacts:
     paths:
     - .plato
-    - test-results.json
+    - test-report.html
