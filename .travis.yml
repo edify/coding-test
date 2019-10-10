@@ -5,3 +5,8 @@ script:
   - npm install
   - node_modules/plato/bin/plato -t "Edify Coding Test `echo ${PWD##*/}`" -r -d .plato -x .test.js -e .eslintrc **/calendar.js **/UrlUtils.js **/UserService.js
   - npm test
+addons:
+  artifacts:
+    paths:
+    - .plato
+    - test-results.json
