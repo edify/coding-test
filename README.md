@@ -14,3 +14,5 @@ Complete the following tasks:
 You can find the instructions for each task on its corresponding `README.md` file.
 
 Push your code to `master` when done.
+
+Good luck!
