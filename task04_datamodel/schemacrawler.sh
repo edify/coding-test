@@ -9,8 +9,8 @@ echo "Generating database schema diagram"
 --user=root --password=root \
 --database=lms \
 --info-level=standard --command=schema \
---output-format=png \
---output-file=/share/task04_diagram.png
+--output-format=png --log-level=CONFIG \
+--output-file=/share/diagram.png
 
 echo "Linting schema"
 
@@ -19,5 +19,5 @@ echo "Linting schema"
 --user=root --password=root \
 --database=lms \
 --info-level=standard --command=lint \
---output-format=html \
---output-file=/share/task04_lint.html
+--output-format=html --log-level=CONFIG \
+--output-file=/share/lint.html
