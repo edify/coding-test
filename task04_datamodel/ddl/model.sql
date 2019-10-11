@@ -16,17 +16,6 @@ CREATE SCHEMA IF NOT EXISTS `lms` DEFAULT CHARACTER SET utf8 ;
 USE `lms` ;
 
 -- -----------------------------------------------------
--- Table `lms`.`dummy`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `lms`.`dummy` ;
-
-CREATE TABLE IF NOT EXISTS `lms`.`dummy` (
-  `id` INT NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE INDEX `id_UNIQUE` (`id` ASC))
-ENGINE = InnoDB;
-
--- -----------------------------------------------------
 -- Add your tables here
 -- -----------------------------------------------------
 
