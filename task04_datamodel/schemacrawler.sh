@@ -10,7 +10,7 @@ echo "Generating database schema diagram"
 --database=lms \
 --info-level=standard --command=schema \
 --output-format=png --log-level=CONFIG \
---output-file=/share/diagram.png
+--output-file=/share/report/diagram.png
 
 echo "Linting schema"
 
@@ -20,4 +20,4 @@ echo "Linting schema"
 --database=lms \
 --info-level=standard --command=lint \
 --output-format=html --log-level=CONFIG \
---output-file=/share/lint.html
+--output-file=/share/report/lint.html

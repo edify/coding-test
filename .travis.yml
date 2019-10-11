@@ -11,5 +11,4 @@ addons:
     paths:
     - .plato
     - test-report.html
-    - task04_datamodel/diagram.png
-    - task04_datamodel/lint.html
+    - task04_datamodel/report
