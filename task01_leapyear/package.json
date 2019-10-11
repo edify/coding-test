@@ -2,11 +2,11 @@
   "name": "edify-task01-leapyear",
   "version": "1.0.0",
   "scripts": {
-    "test": "JEST_JUNIT_OUTPUT=test-results.xml jest --testResultsProcessor='jest-junit' --testEnvironment='node'"
+    "test": "jest --testEnvironment='node'"
   },
   "devDependencies": {
-    "jest": "^22.4.3",
-    "jest-junit": "^3.6.0"
+    "eslint": "^6.4.0",
+    "jest": "^22.4.3"
   },
   "engines": {
     "node": ">=8"
