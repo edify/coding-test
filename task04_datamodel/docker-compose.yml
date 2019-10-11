@@ -12,6 +12,7 @@ services:
         image: schemacrawler/schemacrawler
         depends_on:
             - db
+        user: "${DOCKER_COMPOSE_RUN_AS_USER}"
         links:
             - 'db:db'
         volumes:
