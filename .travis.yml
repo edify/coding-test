@@ -5,8 +5,11 @@ script:
   - npm install
   - node_modules/plato/bin/plato -t "Edify Coding Test `echo ${PWD##*/}`" -r -d .plato -x .test.js -e .eslintrc **/calendar.js **/UrlUtils.js **/UserService.js
   - npm test
+  - cd task04_datamodel ; docker-compose up --abort-on-container-exit 
 addons:
   artifacts:
     paths:
     - .plato
     - test-report.html
+    - task04_datamodel/task04_diagram.png
+    - task04_datamodel/task04_lint.html
